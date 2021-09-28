@@ -153,6 +153,11 @@ z-index: 2;
 .main-block__body > *:not(:last-child){
 	margin: 0px 0px 35px 0px;
 }
+@media (max-width: 992px) {
+	.main-block__body {
+	padding: 220px 0px 190px 0px;
+	}
+}
 .main-block__title{
 font-size: 58px;
 line-height: 136%;
@@ -200,6 +205,11 @@ border: 1px solid #0d5c63;
 }
 .main-block__image img{
 	object-position: bottom;
+}
+@media (max-width: 1300px) {
+	.main-block__image img {
+	object-position: right;
+	}
 }
 .footer{
 
