@@ -155,7 +155,7 @@ z-index: 2;
 }
 @media (max-width: 992px) {
 	.main-block__body {
-	padding: 220px 0px 190px 0px;
+	padding: 260px 0px 190px 0px;
 	}
 }
 .main-block__title{
@@ -164,12 +164,44 @@ line-height: 136%;
 font-weight: 700;
 letter-spacing: 0.2px;
 }
+@media (max-width: 640px) {
+	.main-block__title {
+	font-size: 32px;
+	}
+}
+@media (max-width: 360px) {
+	.main-block__title {
+	font-size: 22px;
+	}
+}
 .main-block__text{
 font-size: 26px;
 line-height: 1.5;
 }
+@media (max-width: 640px) {
+	.main-block__text {
+	font-size: 18px;
+	}
+}
+@media (max-width: 360px) {
+	.main-block__text {
+	font-size: 16px;
+	}
+}
+@media (max-width: 640px) {
+	.header__virsus {
+	font-size: 18px;
+	}
+}
+@media (max-width: 360px) {
+	.header__virsus {
+	font-size: 16px;
+	}
+}
+
 .main-block__buttons{
-display: inline-flex;
+display: flex;
+flex-wrap: wrap;
 }
 .main-block__button{
 border-radius: 16px;
@@ -183,9 +215,15 @@ font-weight: 700;
 line-height: 150%;
 color:antiquewhite;
 text-align: center;
+margin: 10px 0px;
+}
+@media (max-width: 360px) {
+	.main-block__button {
+	flex: 1 1 100%;
+	}
 }
 .main-block__button:not(:last-child){
-	margin: 0px 10px 0px 0px;
+	margin-right: 10px;
 }
 .main-block__button_orange{
 	background:rgb(161, 93, 14);
@@ -211,6 +249,70 @@ border: 1px solid #0d5c63;
 	object-position: right;
 	}
 }
+/*-------------------------------------*/
+.services{
+
+}
+.page__services{
+	position: relative;
+	z-index: 2;
+margin: -111px 0px 0px 0px;
+}
+.services__container{
+
+}
+.services__body{
+flex-wrap: wrap;
+display: flex;
+margin: 0px -15px --30px;
+}
+.services__column{
+padding: 0px 15px;
+flex: 0 1 33.333%;
+margin: 0px 0px 30px 0px;
+}
+@media (max-width: 992px) {
+	.services__column {
+		flex: 0 1 50%;
+	}
+}
+.services__item{
+	height: 100%;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+background-color:antiquewhite;
+padding: 35px;
+}
+.item-service{
+
+}
+.item-service_green{
+	background-color:darkcyan;
+	color:antiquewhite
+}
+.item-service > *:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+.item-service__icon{
+
+}
+.item-service__title{
+font-weight: 700;
+font-size: 24px;
+line-height: 133%;
+letter-spacing: 0.1px;
+}
+.item-service__text{
+color: #737373;
+line-height: 142%;
+}
+.item-service__text-3{
+	color:antiquewhite;
+	line-height: 142%;
+}
+
+
+
+/*-----------------------------------*/
 .footer{
 
 }
