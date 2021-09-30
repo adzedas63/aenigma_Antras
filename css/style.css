@@ -397,3 +397,35 @@ margin: 0px 0px 1em 0px;
   .popup__text{
 font-size: 14px;
   }
+
+  /*------------Proba*/
+
+
+.footer {
+    padding: 0;
+}
+.footer {
+    -ms-grid-row: 6;
+    grid-area: footer;
+}
+.footer, .header-side-line.right-side-line #main, .header-side-right:not(.sticky-header) #main {
+    -ms-grid-column: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+*, legend {
+    padding: 0;
+}
+*, figure, form {
+    margin: 0;
+}
+user agent stylesheet
+footer {
+    display: block;
+}
+html, body, body.page, .wf-container > * {
+    font: normal 15px / 25px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    word-spacing: normal;
+    color: #6b7072;
+}
