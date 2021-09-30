@@ -73,8 +73,8 @@ top: 0;
 z-index: 30;
 }
 .header__logo{
-height: 70%;
-width: 70%;
+height: 40%;
+width: 40%;
 }
 .header__container{
 display: flex;
@@ -159,11 +159,23 @@ z-index: 2;
 	}
 }
 .main-block__title{
-	color:antiquewhite;
+color:antiquewhite;
 font-size: 58px;
 line-height: 136%;
 font-weight: 700;
 letter-spacing: 0.2px;
+}
+.main-block__tel{
+	color:antiquewhite;
+	font-size: 34px;
+	line-height: 111%;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+@media (max-width: 360px) {
+	.main-block__tel {
+	font-size: 22px;
+	}
 }
 @media (max-width: 640px) {
 	.main-block__title {
