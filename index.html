@@ -180,8 +180,8 @@ var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Twee
         /* Styling for the popup balloon */
         .popup-balloon {
             position: fixed;
-            top: -100px; /* Initially hidden above the screen */
-            right: 125px;
+            top: -150px; /* Initially hidden above the screen */
+            right: 45px;
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             padding: 10px;
@@ -196,7 +196,7 @@ var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Twee
                 top: -100px;
             }
             to {
-                top: 125px;
+                top: 25px;
             }
         }
 
@@ -219,7 +219,13 @@ var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Twee
 <body>
     <!-- Popup balloon content -->
     <div class="popup-balloon">
-        <p>AKCIJA!<br>BLA BLA BLA BLA</p>
+		<header id="header" class="header">					
+			<a><img class="header__logo" src="img/LuckyDogLogo.png" style="width: 50%;" alt="LuckyDogLogo"></a>
+		</header><br><br>
+        <p><br>BLA BLA BLA BLA<br>
+		BLA BLA BLA BLA<br>
+		Lorem ipsum dolor sit amet<BR> consectetur adipisicing elit. <br>Corrupti animi nobis quibu</p>
+		
         <button onclick="closeBalloon()">OK</button>
     </div>
 
@@ -235,7 +241,7 @@ var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Twee
     </script>
 </body>
 
-
+ 
 
 
 
