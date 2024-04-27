@@ -159,14 +159,14 @@ z-index: 2;
 	}
 }
 .main-block__title{
-color:antiquewhite;
+color:rgb(83, 16, 16);
 font-size: 58px;
 line-height: 136%;
 font-weight: 700;
 letter-spacing: 0.2px;
 }
 .main-block__tel{
-	color:antiquewhite;
+	color:cornflowerblue;
 	font-size: 34px;
 	line-height: 111%;
 	font-weight: 400;
@@ -188,9 +188,10 @@ letter-spacing: 0.2px;
 	}
 }
 .main-block__text{
-	color:antiquewhite;
+	color:rgb(83, 16, 16);
 font-size: 26px;
 line-height: 1.5;
+font-weight: 600;
 }
 @media (max-width: 640px) {
 	.main-block__text {
@@ -227,7 +228,7 @@ min-height: 48px;
 letter-spacing: 0.2px;
 font-weight: 700;
 line-height: 150%;
-color:antiquewhite;
+color:rgb(83, 16, 16);
 text-align: center;
 margin: 10px 0px;
 }
@@ -241,12 +242,17 @@ margin: 10px 0px;
 }
 .main-block__button_orange{
 	background:rgb(15, 167, 61);
-	color:antiquewhite;
+	color:rgb(83, 16, 16);
 }
 .main-block__button__border{
-color:antiquewhite;
-border: 1px solid #a8b2b3;
+color:rgb(83, 16, 16);
+border: 1px solid #26cad8;
 }
+
+
+
+
+
 .main-block__image{
 	position: absolute;
 	width: 120%;
@@ -409,6 +415,35 @@ margin: 0px 0px 1em 0px;
   .popup__text{
 font-size: 14px;
   }
+
+
+
+
+
+/* Customize styles as per your design */
+.popup {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
   /*------------Proba*/
 
