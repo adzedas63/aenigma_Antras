@@ -299,45 +299,7 @@ var cnArgs = {"ajaxurl":"https:\/\/vlr.lt\/wp-admin\/admin-ajax.php","hideEffect
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Styling for the popup balloon */
-        .popup-balloon {
-            position: fixed;
-            top: -150px; /* Initially hidden above the screen */
-            right: 45px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            z-index: 9999;
-            animation: slideIn 0.5s ease forwards; /* Slide-in animation */
-        }
-
-        @keyframes slideIn {
-            from {
-                top: -100px;
-            }
-            to {
-                top: 25px;
-            }
-        }
-
-        /* Exit animation when closing the balloon */
-        .popup-balloon.hide {
-            animation: slideOut 0.5s ease forwards; /* Slide-out animation */
-        }
-
-        @keyframes slideOut {
-            from {
-                top: 125px;
-            }
-            to {
-                top: -100px;
-                opacity: 0; /* Fade out during slide-out */
-            }
-        }
-    </style>
+    
 </head>
 
 
@@ -466,6 +428,9 @@ var cnArgs = {"ajaxurl":"https:\/\/vlr.lt\/wp-admin\/admin-ajax.php","hideEffect
 	<span class="fa fa-star checked"></span>
 	<span class="fa fa-star checked"></span>
 	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
 	<span class="fa fa-star"></span>
 	<span class="fa fa-star"></span>
 	
@@ -474,7 +439,6 @@ var cnArgs = {"ajaxurl":"https:\/\/vlr.lt\/wp-admin\/admin-ajax.php","hideEffect
 	
 	<!-- index.html -->
 	
-	<!DOCTYPE html>
 	
 	
 	<head>
@@ -483,7 +447,7 @@ var cnArgs = {"ajaxurl":"https:\/\/vlr.lt\/wp-admin\/admin-ajax.php","hideEffect
 			content="width=device-width, 
 					initial-scale=1" />
 		<link rel="stylesheet"
-			href="styles.css" />
+			href="style.css" />
 	</head>
 	
 	
