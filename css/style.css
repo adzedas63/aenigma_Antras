@@ -159,7 +159,7 @@ z-index: 2;
 	}
 }
 .main-block__title{
-color:rgb(83, 16, 16);
+color:rgb(245, 242, 242);
 font-size: 58px;
 line-height: 136%;
 font-weight: 700;
@@ -188,7 +188,7 @@ letter-spacing: 0.2px;
 	}
 }
 .main-block__text{
-	color:rgb(83, 16, 16);
+	color:rgb(245, 240, 240);
 font-size: 26px;
 line-height: 1.5;
 font-weight: 600;
