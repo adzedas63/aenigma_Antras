@@ -66,15 +66,15 @@ body {
 
 /*___________________________________________*/
 .header{
-position: absolute;
-width: 100%;
+position: fixed;
+width: 200vh;
 left: 0;
 top: 0;
-z-index: 30;
+z-index: 130;
 }
 .header__logo{
-height: 40%;
-width: 40%;
+height: 50%;
+width: 50%;
 }
 .header__container{
 display: flex;
